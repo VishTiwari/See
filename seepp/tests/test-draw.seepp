@@ -1,0 +1,16 @@
+int main(){
+	/*
+    CanvasCircle can = CanvasCircle(1000.0,1000.0);
+
+  	Point pt = Point(510.0, 490.0);
+	Circle px = Circle(pt, 120.0);
+
+    Point pt1 = Point(12.0, 10.0);
+    Circle px1 = Circle(pt1, 30.0);
+
+	can -> append().circle px;
+    can -> append().circle px1;
+	drawcircle(can, "fuckthisbullshitclassfuck.svg");	
+	*/
+	return 0; 
+}

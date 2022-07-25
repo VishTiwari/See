@@ -1,0 +1,13 @@
+
+int main() {
+	float f = 10.0;
+	printf(f);
+	return 0;
+}
+
+void func(float f){
+	printf(f);
+}
+
+
+

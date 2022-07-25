@@ -1,0 +1,4 @@
+int main(){
+  Pixel pt = Point(20.0, 50.0);
+  return 0;
+}

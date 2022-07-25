@@ -1,0 +1,5 @@
+int main() {
+  Pixel c = Pixel(Point(1.0, 1.0));
+  printf(c.ep1.x);
+	return 0; 
+}

@@ -1,0 +1,8 @@
+int main()
+{
+	Point x;
+	float y = 5.2;
+	x = Point(y, 3.4);
+	printf(x.x);
+	return 0;
+}

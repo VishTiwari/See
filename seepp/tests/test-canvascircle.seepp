@@ -1,0 +1,59 @@
+int main(){
+    CanvasCircle can = CanvasCircle(1000.0,1000.0);
+  	Point pt = Point(1.0, 2.0);
+	Circle px = Circle(pt, 3.0);
+
+	can -> append().circle px;
+	
+	drawcircle(can, "can_cir.svg");	
+	return 0; 
+}
+/*
+ABCD (1, 2, 0)
+
+ABDC (2, 1, 0)
+
+ACBD (0, 2, 1)
+
+ACDB (0, 1, 2)
+
+ADBC (2, 0, 1)
+
+ADCB (1, 0, 2)
+
+BACD (1, 2, 2)
+
+BADC (2, 1, 2)
+
+BCAD (0, 2, 2)
+
+BCDA (0, 0, 2)
+
+BDAC (2, 0, 2)
+
+BDCA (0, 0, 2)
+
+CABD (2, 2, 1)
+
+CADB (2, 1, 2)
+
+CBAD (2, 2, 0)
+
+CBDA (2, 0, 0)
+
+CDAB (2, 0, 2)
+
+CDBA
+
+DABC
+
+DACB
+
+DBAC
+
+DBCA
+
+DCAB
+
+DCBA
+*/

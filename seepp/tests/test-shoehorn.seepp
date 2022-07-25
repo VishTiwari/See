@@ -1,0 +1,6 @@
+int main() {
+  	Pixel c = Pixel(Point(1.0, 1.0));
+	Canvas can = Canvas(100.0,100.0);
+	can -> append() c;
+	return 0; 
+}

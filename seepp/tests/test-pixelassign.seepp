@@ -1,0 +1,6 @@
+int main(){
+  Pixel p = Pixel(Point(10.0, 10.0));
+  float test = p.ep1.x;
+  printf(test);
+  return 0; 
+}

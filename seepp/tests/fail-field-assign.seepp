@@ -1,0 +1,5 @@
+int main()
+{
+    Point p = Point(3.2,5.5);
+    p.x = "hiya";
+}
